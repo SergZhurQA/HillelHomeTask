@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HomeTask9 methods" parallel="classes" thread-count="4">
+<test name="MyTest">
+    <groups>
+        <run>
+            <include name="RemovingCharacters method"/>
+            <include name="ReturningSubString method"/>
+            <include name="ReverseString method"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="qaauto.RemovingCharactersTest"/>
+        <class name="qaauto.ReturningSubStringTest"/>
+        <class name="qaauto.ReverseStringTest"/>
+    </classes>
+</test>
+<test name="PhoneNumberRegex method">
+    <classes>
+        <class name="qaauto.PhoneNumberRegexTest">
+            <methods>
+                <include name="phoneNumberRegexNegativeTest"/>
+                <parameter name="number" value="+389983456899"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
