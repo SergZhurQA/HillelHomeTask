@@ -1,3 +1,5 @@
+package qaauto;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import qaauto.task3.RemovingCharacters;

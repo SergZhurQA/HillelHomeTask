@@ -9,14 +9,14 @@
         </run>
     </groups>
     <classes>
-        <class name="RemovingCharactersTest"/>
-        <class name="ReturningSubStringTest"/>
-        <class name="ReverseStringTest"/>
+        <class name="qaauto.RemovingCharactersTest"/>
+        <class name="qaauto.ReturningSubStringTest"/>
+        <class name="qaauto.ReverseStringTest"/>
     </classes>
 </test>
 <test name="PhoneNumberRegex method">
     <classes>
-        <class name="PhoneNumberRegexTest">
+        <class name="qaauto.PhoneNumberRegexTest">
             <methods>
                 <include name="phoneNumberRegexNegativeTest"/>
                 <parameter name="number" value="+389983456899"/>

@@ -1,3 +1,5 @@
+package qaauto;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 import qaauto.task1.ReverseString;
